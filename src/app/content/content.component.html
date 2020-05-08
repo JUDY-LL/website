@@ -1,0 +1,29 @@
+<div id="container">
+  <div class="demo">
+    <div class="detail">
+      <span class="Facade">学院新闻</span>
+      <span class="more"><a href="javascript:void(0)">更多>></a></span>
+      <div *ngFor="let title of titleList" class="Adetail">
+        <span>></span><a href="javascript:void(0)" (click)="getArticle(title,home)">{{title}}</a>
+      </div>
+    </div>
+    <div class="dynamic">
+      <span class="Facade">招生动态</span>
+      <span class="facadeMore"><a href="javascript:void(0)">更多>></a></span>
+      <div *ngFor="let title of titleList3" class="Adetail">
+        <span>></span><a href="javascript:void(0)" (click)="getArticle(title,dynamic)">{{title}}</a>
+      </div>
+    </div>
+    <div class="policy1">
+      <span class="Facade">招生政策</span>
+      <span class="more"><a href="policy">更多>></a></span>
+      <div *ngFor="let title of titleList5" class="Adetail">
+        <span>></span><a href="javascript:void(0)" (click)="getArticle(title,policy)">{{title}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

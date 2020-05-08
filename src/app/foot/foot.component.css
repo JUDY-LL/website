@@ -1,0 +1,9 @@
+#foot {
+  clear: both;
+  background-color: forestgreen;
+  text-align: center;
+  color: #f9f9f9;
+  position: fixed;
+  top: 94%;
+  width: 100%;
+}

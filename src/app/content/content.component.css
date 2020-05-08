@@ -1,0 +1,56 @@
+.demo a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.Adetail a {
+  width:225px;
+  display:block;
+  overflow:hidden;
+  word-break:keep-all;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.Adetail a:hover {
+  text-decoration:underline;
+}
+/*-----------------------------------------------*/
+
+.Facade {
+  background-color: forestgreen;
+  color: #f9f9f9;
+  float: left;
+}
+.more {
+  margin: 0px 102px;
+}
+.facadeMore {
+  margin: 0px 102px;
+}
+.detail {
+  position: relative;
+  padding: 13px;
+  float: left;
+  width: 30%;
+}
+.Adetail {
+  padding: 8px;
+}
+.Adetail span{
+  float: left;
+}
+.dynamic {
+  position: relative;
+  padding: 13px;
+  float: left;
+  width: 30%;
+}
+.policy1 {
+  position: relative;
+  padding: 13px;
+  float: left;
+  width: 30%;
+}
+.demo {
+  margin: 7%;
+}

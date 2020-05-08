@@ -1,0 +1,8 @@
+<app-head></app-head>
+<div id="policy">
+  <span class="span">招生政策</span>
+  <div *ngFor="let title of titleList5" class="title">
+    <a href="javascript:void(0)" (click)="getArticle(title,policy)">{{title}}</a>
+  </div>
+</div>
+<app-foot></app-foot>

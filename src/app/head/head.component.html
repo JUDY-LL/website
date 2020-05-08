@@ -1,0 +1,41 @@
+<div id="head">
+  <img src="/assets/img/head.png" alt="">
+</div>
+<div id="content">
+  <div class="demo">
+    <div class="homepage">
+      <a href=""><span>网站首页</span></a>
+    </div>
+    <div class="school">
+      <span>学院概况</span>
+      <div class="school-content">
+        <a href="javascript:void(0)" *ngFor="let title of titleList2" (click)="getArticle(title,school)">{{title}}</a>
+      </div>
+    </div>
+    <div class="policy">
+      <span><a href="policy">招生政策</a></span>
+      <div class="policy-content">
+
+      </div>
+    </div>
+    <div class="regulation">
+      <a href="javascript:void(0)" *ngFor="let title of titleList4" (click)="getArticle(title,bylaws)">{{title}}</a>
+    </div>
+    <div class="guide">
+      <span>新生指南</span>
+      <div class="guide-content">
+        <a href="javascript:void(0)" *ngFor="let title of titleList5" (click)="getArticle(title,guide)">{{title}}</a>
+      </div>
+    </div>
+    <div class="plan">
+      <span>招生计划</span>
+      <div class="plan-content">
+        <a href="plan">招生动态</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="img">
+  <img src="/assets/img/Knowledge.jpg" alt="">
+</div>
+

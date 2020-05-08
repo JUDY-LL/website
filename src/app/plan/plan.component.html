@@ -1,0 +1,8 @@
+<app-head></app-head>
+<div id="policy">
+  <span class="span">招生动态</span>
+  <div *ngFor="let title of titleList3" class="title">
+    <a href="javascript:void(0)" (click)="getArticle(title,dynamic)">{{title}}</a>
+  </div>
+</div>
+<app-foot></app-foot>
