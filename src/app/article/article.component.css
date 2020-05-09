@@ -16,6 +16,8 @@
   right: 20%;
   z-index: 100;
   margin: 0 0 30px 0;
+  border:1px solid #ccc;
+  padding: 13px 13px 0 13px;
 }
 #acticle {
   margin: 7% 0 0 0;
